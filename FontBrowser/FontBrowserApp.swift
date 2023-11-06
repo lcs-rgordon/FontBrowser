@@ -11,7 +11,7 @@ import SwiftUI
 struct FontBrowserApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FontsView()
         }
     }
 }

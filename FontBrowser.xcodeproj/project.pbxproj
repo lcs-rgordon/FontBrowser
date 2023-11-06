@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		812770BF2AF9081F0071F93C /* FontBrowserApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812770BE2AF9081F0071F93C /* FontBrowserApp.swift */; };
-		812770C12AF9081F0071F93C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812770C02AF9081F0071F93C /* ContentView.swift */; };
 		812770C32AF908200071F93C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812770C22AF908200071F93C /* Assets.xcassets */; };
 		812770C62AF908200071F93C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812770C52AF908200071F93C /* Preview Assets.xcassets */; };
+		812770CD2AF908320071F93C /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812770CC2AF908320071F93C /* FontsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		812770BB2AF9081F0071F93C /* FontBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		812770BE2AF9081F0071F93C /* FontBrowserApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBrowserApp.swift; sourceTree = "<group>"; };
-		812770C02AF9081F0071F93C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		812770C22AF908200071F93C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		812770C52AF908200071F93C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		812770CC2AF908320071F93C /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				812770BE2AF9081F0071F93C /* FontBrowserApp.swift */,
-				812770C02AF9081F0071F93C /* ContentView.swift */,
+				812770CC2AF908320071F93C /* FontsView.swift */,
 				812770C22AF908200071F93C /* Assets.xcassets */,
 				812770C42AF908200071F93C /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				812770C12AF9081F0071F93C /* ContentView.swift in Sources */,
+				812770CD2AF908320071F93C /* FontsView.swift in Sources */,
 				812770BF2AF9081F0071F93C /* FontBrowserApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
